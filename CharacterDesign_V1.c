@@ -1,5 +1,11 @@
-#include <GL/glut.h> //Para Linux
-// #include <GLUT/glut.h> //Para MacOS
+#ifdef __APPLE__
+#define GL_SILENCE_DEPRECATION
+#include <OpenGL/gl.h>
+#include <GLUT/glut.h>
+#else
+#include <GL/gl.h>
+#include <GL/glut.h>
+#endif
 #include <stdio.h>
 #include <stdlib.h>
 
