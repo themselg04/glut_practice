@@ -194,7 +194,14 @@ NodoVertice* buscarElementoTabla(float x, float y, float z) {
 // void crearTriangulos(){
 // }
 
-// This is where text is removed
+// void liberarTabla(){
+// }
+
+// void liberarVertices() {
+// }
+
+// void liberarTriangulos(){
+// }
 
 void display() {
     glClear(GL_COLOR_BUFFER_BIT);
@@ -210,5 +217,3 @@ void display() {
     glEnd();
     glFlush();
 }
-
-// This is a test for using git
